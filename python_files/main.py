@@ -2,10 +2,10 @@
 # CAP 4770 Final Project – Flight Delay Prediction
 # Group: Ryan Blankenbeker, Kenyen Hast-Otero, John WG Wallace
 
-from data_loader import load_flight_data
-from preprocessing import preprocess_data, create_delay_label
-from plots import run_eda
-from models import train_models, evaluate_models
+from python_files.data_loader import load_flight_data
+from python_files.preprocessing import preprocess_data, create_delay_label
+from python_files.plots import run_eda
+from python_files.models import train_models, evaluate_models
 
 def main():
 
